@@ -7,6 +7,9 @@ app.use(json());
 app.get('/', (req, res) => {
   res.json({ msg: 'wow!!! how cool is it to have online editor like blitz' });
 });
+app.get('/css-practice', (req, res) => {
+  res.json({ msg: 'css-practice' });
+});
 app.get('/test', (req, res) => {
   res.json({ msg: 'what about this?' });
 });

@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "express": "^4.17.3",
+    "express-openid-connect": "^2.7.2",
     "nodemon": "^2.0.15"
   }
 }
