@@ -4,6 +4,7 @@ import expressSession from 'express-session';
 import passport from 'passport';
 import Auth0Strategy from 'passport-auth0';
 import 'dotenv/config';
+import { authRouter } from './routes/auth.js';
 
 /*
 App Variables
@@ -69,6 +70,9 @@ passport.serializeUser((user, done) => {
 passport.deserializeUser((user, done) => {
   done(null, user);
 });
+
+// Router mounting
+app.use('/', authRouter);
 
 // Rest of code...
 app.listen(port, () => `Server running on port ${port}`);

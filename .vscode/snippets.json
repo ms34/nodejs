@@ -15,7 +15,7 @@
   "import module": {
     "scope": "javascript,typescript",
     "prefix": ["imp", "import"],
-    "body": ["import $2 from '$1'\n$s0"],
+    "body": ["import ${2:module} from '$1'\n$s0"],
     "description": "import snippet"
   },
   "comment": {
