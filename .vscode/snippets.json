@@ -24,10 +24,4 @@
     "body": ["/*\n$1\n*********************************/$s0"],
     "description": "comment snippet"
   }
-
-  // AUTH0_DOMAIN=mulusew.us.auth0.com
-  // AUTH0_CLIENT_ID=wECIDBMyxEKnP8wyA86Syzvz2D2agtoF
-  // AUTH0_CLIENT_SECRET=bvnS8Td9G7Z-AfECA9Tv1ih0AXHYJQa6u81nMVKcuPeT0ZXn3EDO1d6OSIjQJOV3
-  // AUTH0_CALLBACK_URL=https://react-mjsdxa.stackblitz.io/css-practice
-  // SESSION_SECRET=5091f3cd96fe12c9671fc5b6042168bc63c22549767eaaa96f0e476722b58eff
 }
